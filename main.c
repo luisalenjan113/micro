@@ -1,3 +1,4 @@
+//CONTROLAR LED RGB MEDIANTE LA SERIAL CONSOLE
 #include <driverlib.h>
 #include <LCD16x2fr16MHz.h>
 
@@ -167,4 +168,5 @@ __interrupt void USCI_A0_ISR(void)
         actualizarLCD();
         i = 0;
     }
+
 }
